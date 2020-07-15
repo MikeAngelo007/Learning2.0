@@ -4,7 +4,7 @@ element.innerText='Hello Word Cruel:::'
 
 const container= document.getElementById('root')
 
-container.appendChild(element) */
+container.appendChild(element)
 
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -45,4 +45,13 @@ const element=(
 const container = document.getElementById('root')
 
 //ReactDOM.render(_QUE_,_DONDE_)
-ReactDOM.render(element,container)
+ReactDOM.render(element,container) */
+
+
+import React from 'react'
+import ReactDom from 'react-dom'
+import Exercises from './pages/Exercises'
+import 'bootstrap/dist/css/bootstrap.css'
+
+const container = document.getElementById('root')
+ReactDom.render(<Exercises />,container)
