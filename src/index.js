@@ -50,8 +50,8 @@ ReactDOM.render(element,container) */
 
 import React from 'react'
 import ReactDom from 'react-dom'
-import Exercises from './pages/Exercises'
 import 'bootstrap/dist/css/bootstrap.css'
+import App from './components/App'
 
 const container = document.getElementById('root')
-ReactDom.render(<Exercises />,container)
+ReactDom.render(<App />,container)
