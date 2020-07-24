@@ -4,9 +4,7 @@ import Welcome from '../components/Welcome'
 import Add from '../components/Add'
 
 class Exercises extends React.Component{
-    constructor(props){
-        super(props)
-        this.state={
+    state={
 
            data: [{
                 "id": 1,
@@ -31,7 +29,7 @@ class Exercises extends React.Component{
                 "rightColor": "#F76B1C"
             }]
         }
-    }
+    
     render(){
         return(
             <div>
